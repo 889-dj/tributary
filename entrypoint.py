@@ -55,4 +55,4 @@ def collect_engine_temperature():
     }
 
     logger.info(f"collect request successful with result: {result}")
-    return jsonify(result), 200
+    return result, 200
